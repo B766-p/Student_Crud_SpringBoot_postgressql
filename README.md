@@ -6,15 +6,17 @@ Purpose: The application allows users to perform CRUD (Create, Read, Update, Del
 # Key Components
 Spring Boot: A Java-based framework that simplifies the development of web applications. It provides built-in features for dependency management, configuration, and application setup.
 
-# PostgreSQL: An open-source relational database management system that stores student data. It is known for its robustness, performance, and support for advanced data types.
+# PostgreSQL:
+An open-source relational database management system that stores student data. It is known for its robustness, performance, and support for advanced data types.
 
-# RESTful API: The application exposes a RESTful API that allows clients (like web or mobile applications) to interact with the student data. Common endpoints might include:
----
-POST /students: Create a new student record.
-GET /students: Retrieve a list of all students.
-GET /students/{id}: Retrieve a specific student by ID.
-PUT /students/{id}: Update an existing student record.
-DELETE /students/{id}: Delete a student record.
+# RESTful API: 
+The application exposes a RESTful API that allows clients (like web or mobile applications) to interact with the student data. Common endpoints might include:
+
+- POST /students: Create a new student record.
+- GET /students: Retrieve a list of all students.
+- GET /students/{id}: Retrieve a specific student by ID.
+- PUT /students/{id}: Update an existing student record.
+- DELETE /students/{id}: Delete a student record.
 Features
 # Entity Management:
 The application typically includes a Student entity with attributes such as id, name, age, email, and course.
